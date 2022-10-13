@@ -1,0 +1,17 @@
+{
+  "name": "wp-env-2022",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx wp-env start",
+    "stop": "npx wp-env stop",
+    "start:update": "npx wp-env start --update"
+  },
+  "keywords": [],
+  "author": "ysk3da",
+  "license": "ISC",
+  "devDependencies": {
+    "@wordpress/env": "^5.4.0"
+  }
+}
